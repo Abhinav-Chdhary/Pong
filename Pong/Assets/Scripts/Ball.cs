@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Ball : MonoBehaviour
@@ -20,5 +18,9 @@ public class Ball : MonoBehaviour
         float y = Random.value < 0.5f? Random.Range(-1.0f, -0.5f): Random.Range(0.5f, 1.0f) ;
         Vector2 direc= new Vector2(x,y);
         _rigidbody.AddForce(direc * speed);
+    }
+    public void AddForce(Vector2 force)
+    {
+        _rigidbody.AddForce(force);
     }
 }
