@@ -281,7 +281,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &175720515
 Rigidbody2D:
@@ -438,7 +438,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &695755380
 GameObject:
@@ -450,6 +450,7 @@ GameObject:
   m_Component:
   - component: {fileID: 695755382}
   - component: {fileID: 695755381}
+  - component: {fileID: 695755383}
   m_Layer: 0
   m_Name: Player Wall
   m_TagString: Untagged
@@ -498,6 +499,18 @@ Transform:
   m_Father: {fileID: 1658344968}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &695755383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695755380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ede96411a5793459e1eea8761cf4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &776114540
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,7 +542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerScore: 0
   computerScore: 0
-  ball: {fileID: 0}
+  ball: {fileID: 1457643922}
 --- !u!4 &776114542
 Transform:
   m_ObjectHideFlags: 0
@@ -543,7 +556,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &831089280
 GameObject:
@@ -678,7 +691,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &831089285
 MonoBehaviour:
@@ -836,7 +849,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1450211889
 GameObject:
@@ -848,6 +861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1450211891}
   - component: {fileID: 1450211890}
+  - component: {fileID: 1450211892}
   m_Layer: 0
   m_Name: Computer Wall
   m_TagString: Untagged
@@ -896,6 +910,18 @@ Transform:
   m_Father: {fileID: 1658344968}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &1450211892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450211889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ede96411a5793459e1eea8761cf4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1457643917
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,7 +1007,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1457643920
 Rigidbody2D:
@@ -1148,5 +1174,5 @@ Transform:
   - {fileID: 76350338}
   - {fileID: 695755382}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
