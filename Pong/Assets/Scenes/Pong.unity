@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d380bf1256c3dba48b9233d3ccea5941, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceStrength: 3
+  bounceStrength: 5
 --- !u!1 &175720512
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d380bf1256c3dba48b9233d3ccea5941, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceStrength: 5
+  bounceStrength: 7
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,6 +511,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ede96411a5793459e1eea8761cf4bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scored:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 776114541}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: ComputerScores
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &776114540
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,7 +606,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.6
+  m_Mass: 0.75
   m_LinearDrag: 2
   m_AngularDrag: 0
   m_GravityScale: 0
@@ -922,6 +937,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ede96411a5793459e1eea8761cf4bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scored:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 776114541}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: PlayerScores
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1457643917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,7 +1170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d380bf1256c3dba48b9233d3ccea5941, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceStrength: 3
+  bounceStrength: 5
 --- !u!1 &1658344967
 GameObject:
   m_ObjectHideFlags: 0
