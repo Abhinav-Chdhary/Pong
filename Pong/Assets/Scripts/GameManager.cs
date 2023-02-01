@@ -23,7 +23,4 @@ public class GameManager : MonoBehaviour
         ball.ResetPosition();
         ball.addStartingForce();
     }
-
-
-
 }
